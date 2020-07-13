@@ -1,0 +1,40 @@
+<html>
+<head>
+
+ <h2>A javaScript Program to get the content date in different format</h2>
+
+</head>
+<body>
+
+    <p> 
+        Current Date format1 is:  
+        <span class="currDate1"></span> 
+    </p> 
+    <p> 
+        Current Date format2 is:  
+        <span class="currDate2"></span> 
+    </p>
+    <p> 
+        Current Date format3 is:  
+        <span class="currDate3"></span> 
+    </p> 
+    <p> 
+        Current Date format4 is:  
+        <span class="currDate4"></span> 
+    </p>
+  
+    <script>
+            var currDate1 = new Date().toLocaleDateString('en-US');
+            var currDate2 = new Date().toLocaleDateString('en-GB'); 
+            var currDate3 = new Date().toLocaleDateString('es-NI');
+            var currDate4 = new Date().toLocaleDateString('es-PT');           
+  
+            document.querySelector('.currDate1').textContent = currDate1; 
+            document.querySelector('.currDate2').textContent = currDate2; 
+            document.querySelector('.currDate3').textContent = currDate3; 
+            document.querySelector('.currDate4').textContent = currDate4;
+                      
+            
+    </script>
+</body>
+</html>
