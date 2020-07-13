@@ -1,1 +1,1 @@
-# LetsUpgrade-AI-ML
+# LetsUpgrade-JS
