@@ -1,1 +1,1 @@
-# LetsUpgrade-JS
+# JavaScript
